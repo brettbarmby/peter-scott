@@ -1,3 +1,12 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: 'pages#home'
+  get 'seventies', to: 'pages#seventies'
+  get 'eighties', to: 'pages#eighties'
+  get 'aughts', to: 'pages#aughts'
+  get 'teens', to: 'pages#teens'
+  get 'present', to: 'pages#present'
+  get 'about', to: 'pages#about'
+  get 'cv', to: 'pages#cv'
+  get 'news', to: 'pages#news'
+  get 'contact', to: 'pages#contact'
 end

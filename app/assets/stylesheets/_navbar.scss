@@ -1,0 +1,24 @@
+.navbar {
+  width: 32%;
+  height: 100vh;
+  // border: 1px solid blue;
+  padding:  36px 24px;
+  font-family: 'Montserrat', sans-serif;
+
+  a {
+    text-decoration: none;
+    color: #5e5d5d;
+}
+
+a:hover {
+    color: black;
+}
+
+  .navbar-top {
+    padding-bottom: 36px;
+  }
+
+  .gallery-links {
+    padding-bottom: 16px;
+  }
+}
