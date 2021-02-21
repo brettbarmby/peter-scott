@@ -104,7 +104,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
-    pg (1.2.3)
+    postgres-pr (0.7.0)
     public_suffix (4.0.6)
     puma (4.3.7)
       nio4r (~> 2.0)
@@ -209,7 +209,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  pg
+  postgres-pr
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.5)
   sass-rails (>= 6)
