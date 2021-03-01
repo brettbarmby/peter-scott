@@ -9,9 +9,10 @@
   /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
-    // max-height: 500px;
-    position: relative;
-    margin: 16 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   /* Hide the images by default */
@@ -54,7 +55,7 @@
     font-weight: 500;
     padding: 8px 12px;
     position: absolute;
-    bottom: -36px;
+    bottom: -24px;
     width: 100%;
     text-align: center;
   }
@@ -72,7 +73,7 @@
   .dot-row {
     text-align: center;
     position: relative;
-    top: 24px;
+    top: 48px;
     // display: none;
   }
 

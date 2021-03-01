@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     padding: 0;
     margin: 0;
@@ -54,20 +54,13 @@ ul {
     margin: 0;
 }
 
-
-
 .page-body {
   display: flex;
 }
 
-/*.body-left {
-  width: 25%;
-}*/
-
 .body-right {
-  /*width: 75%;*/
-  /*border: 1px solid blue;*/
   padding: 36px 24px;
   display: flex;
   justify-content: center;
+  height: 95vh;
 }
