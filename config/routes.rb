@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'eighties', to: 'pages#eighties'
   get 'aughts', to: 'pages#aughts'
   get 'teens', to: 'pages#teens'
+  get 'watercolours', to: 'pages#watercolours'
   get 'present', to: 'pages#present'
   get 'about', to: 'pages#about'
   get 'cv', to: 'pages#cv'

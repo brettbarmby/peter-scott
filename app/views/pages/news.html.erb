@@ -3,12 +3,50 @@
     <%= render 'shared/navbar' %>
   </div>
   <div class="body-right">
-    <div class="leftCol">
-      <div class="images">
-        <p><%= image_tag "snowshoe_pete.jpg", height: 500 %></p>
-        <p><%= image_tag "pete_ok_sun_sm.jpg", height: 500 %></p>
+    <div class="row">
+  <div class="column left" style="background-color:white;">
+    <div class="mySlides fade">
+      <%= image_tag "snowshoe_pete.jpg", height: 500 %>
       </div>
-      <p>The inspiration for my paintings/drawings comes from various areas of the province of British Columbia, Canada.</p>
+
+      <div class="mySlides fade">
+        <%= image_tag "pete_ok_sun_sm.jpg", height: 500 %>
+      </div>
+
+      <div class="mySlides fade">
+        <%= image_tag "news/news-1.JPG", height: 500 %>
+      </div>
+
+      <div class="mySlides fade">
+        <%= image_tag "news/news-2.JPG", height: 500 %>
+      </div>
+
+      <div class="mySlides fade">
+        <%= image_tag "news/news-3.JPG", height: 500 %>
+      </div>
+
+      <div class="mySlides fade">
+        <%= image_tag "news/news-4.JPG", height: 500 %>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div class="dot-row" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+      </div>
+  </div>
+  <div class="column right" style="background-color:white;">
+    <p>The inspiration for my paintings/drawings comes from various areas of the province of British Columbia, Canada.</p>
       <p>I was born and raised in Chilliwack B.C., at the base of the beautiful Cascade Mountain Range. I spent my youth hiking, climbing and camping amongst these majestic mountains.  I came to regard these mountain peaks as my friends, each having their own personalities. The First Nations Sto:lo people have legends and stories of these mountains, I use the original names for the titles of my paintings.
       Tree planting, surveying and working in this spectacular vista gave me the inspiration for all my early paintings and this area of the province continues to inspire me.</p>
       <p>After having graduated from the University Of British Columbia with a Bachelors Degree in Art Education in 1982, I relocated to the Cariboo region of central British Columbia where I resided as an art educator and landscape painter for thirty years.</p>
@@ -27,5 +65,6 @@
         </ul>
     </div>
   </div>
+</div>
 </div>
 
